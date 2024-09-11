@@ -29,8 +29,8 @@
         h1 {
             font-family: 'VT323', monospace;
             font-size: 48px;
-            color: #ff00ff;
-            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+            color: #00ff00; /* Neon green */
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
             margin-bottom: 10px;
         }
 
@@ -49,7 +49,7 @@
         .trailer-button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #ff00ff;
+            background-color: #00ff00; /* Neon green */
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -70,13 +70,12 @@
             margin-bottom: 30px;
         }
 
-        .video-player img {
+        .video-player iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
         }
 
         .section {
@@ -108,8 +107,8 @@
         }
 
         .mini-game-button:hover {
-            background-color: #ff00ff;
-            box-shadow: 0 0 10px #ff00ff;
+            background-color: #00ff00; /* Neon green */
+            box-shadow: 0 0 10px #00ff00;
         }
 
         @media (max-width: 600px) {
@@ -136,7 +135,7 @@
         </section>
 
         <section id="trailer" class="video-player">
-            <img src="/api/placeholder/800/450" alt="Trailer placeholder">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/la1ju-tyPyg?si=mH0R6LiflraJl7a5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <section class="section">
